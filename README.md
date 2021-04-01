@@ -8,7 +8,7 @@ Follow the steps outlined below:
 
 ### `git clone`
 
-Clone the repo using the command `git clone https://github.com/sainagasrikantham/react-app-docker`.
+Clone the repo using the command `git clone https://github.com/sainagasrikantham/react-app-docker`
 
 ### `docker build`
 
