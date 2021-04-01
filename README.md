@@ -12,15 +12,17 @@ Clone the repo using the command `git clone https://github.com/sainagasrikantham
 
 ### `docker build`
 
-After you've `cd` into the cloned repo directory, run the following command:\
-Build the image using the command (notice the dot `.`) `docker build -t <your-image-name-here> .`
+After you `cd` into the cloned repo directory, build the image using the command (notice the dot `.`):\
+`docker build -t <your-image-name-here> .`
 
 ### `docker run`
 
-Once the `docker` image is built you can verify that it exists by using the command:\
+Once the `docker` image is built, you can verify that it exists by using the command:\
 `docker images`
 
-Assuming the `build` step went alright, you can run your newly created container with the command:\
+Assuming the `build` step went alright, and you can see your image listed, you can run your\
+newly created container with the command:
+
 `docker run -p 3000:3000 <your-image-name-here>`
 
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
